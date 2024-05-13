@@ -1,0 +1,105 @@
+body{
+    background-color: #44355b;
+background-image: linear-gradient(315deg, #44355b 0%, #ececec 74%);
+}
+.project {
+    /* min-height: auto; */
+    padding-bottom: 5rem;
+    margin-top: 10%;
+}
+
+.project h2 {
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+ .project-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+
+ .project-box {
+    position: relative;
+    display: flex;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
+    overflow: hidden;
+}
+
+.project-box img {
+    width: 100%;
+    transition: .5s ease;
+}
+
+.project-box:hover img {
+    transform: scale(1.1);
+}
+
+ .project-layer {
+    position: absolute;
+    bottom: 0px;
+    left: -60px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, .1),rgb(69, 66, 73));
+    color: var(--white-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 4rem;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.project-box:hover .project-layer {
+    opacity: 1;
+}
+
+.project-layer h4 {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.project-layer p {
+    font-size: 1.5rem;
+    /* margin: .3rem 0 1rem; */
+    margin: 2px;
+    color: white;
+}
+
+.project-layer a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background: var(--white-color);
+    border-radius: 50%;
+}
+
+.project-layer a i {
+    font-size: 2rem;
+    color: #333;
+}
+.upcoming-projects{
+    padding-bottom: 10rem;
+}
+
+.upcoming {
+    margin-bottom: 4rem;
+    text-align: center;
+}
+.footer-iconTop{
+    background-color: white;
+    /* display: inline-block; */
+    margin: 10px;
+    float: right;
+}
+.footer{
+    background-color:transparent;
+    padding-bottom: 50px;
+}

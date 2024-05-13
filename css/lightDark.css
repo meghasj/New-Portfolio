@@ -1,0 +1,22 @@
+.visually-hidden {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+}
+#darkModeToggle + .toggle-label .bx {
+    color: #ffc107;
+ 
+}
+#darkModeToggle:checked + .toggle-label .bx {
+    color: #333;
+}
+#darkModeToggle:not(:checked) + .toggle-label .content {
+    background-color: #333; /* Dark mode background color */
+}
+#darkModeToggle:checked + .toggle-label .content {
+    background-color: #fff; /* Light mode background color */
+}

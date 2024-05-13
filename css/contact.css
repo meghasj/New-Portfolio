@@ -1,0 +1,153 @@
+body {
+  /* background: linear-gradient(to right, #1d2b64, #f8cdda); */
+  background-color: #44355b;
+  background-image: linear-gradient(315deg, #44355b 0%, #ececec 74%);
+  align-items: center;
+  justify-content: center;
+  height: 77vh;
+}
+.contact {
+  min-height: auto;
+  padding-bottom: 5px;
+  margin-top: 10%;
+}
+
+.contact h5 {
+  margin-bottom: 0.3rem;
+}
+
+.contact form {
+  max-width: 50%;
+  margin: 0.5rem auto;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.contact form .input-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact form .input-box input,
+.contact form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: rgb(207, 185, 240);
+  background: rgb(217, 212, 217);
+  border-radius: 0.8rem;
+  margin: 0.7rem 0;
+  box-shadow: 0 0.1rem 0.5rem rgb(200, 200, 201);
+  border: none;
+}
+
+.contact form .input-box input {
+  width: 100%;
+}
+
+.contact form .btn {
+  margin-top: 2rem;
+  cursor: pointer;
+}
+.icon-section {
+  display: block;
+  margin: 10%;
+}
+.footer {
+  background-color: transparent;
+}
+.back {
+  position: relative;
+  overflow: hidden;
+  height: 3rem;
+  padding: 0 2rem;
+  border-radius: 1.5rem;
+  background: #3d3a4e;
+  background-size: 400%;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.back:hover::before {
+  transform: scaleX(1);
+}
+
+.back-content {
+  position: relative;
+  z-index: 1;
+}
+
+.back::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+  background: linear-gradient(
+    82.3deg,
+    rgba(150, 93, 233, 1) 10.8%,
+    rgba(99, 88, 238, 1) 94.3%
+  );
+  transition: all 0.475s;
+}
+
+.button {
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #e8e8e8;
+  border: 1.6px solid #e2e2e2;
+  box-shadow: 6px 6px 10px #c5c5c5, -6px -6px 12px #ffffff;
+  transform: skewX(-5deg);
+  position: relative;
+  overflow: hidden;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  z-index: -1;
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  background-size: 400%;
+  border-radius: 30px;
+  opacity: 0;
+  transition: opacity 0.5s, filter 0.5s;
+}
+
+.button:hover::before {
+  filter: blur(10px);
+  opacity: 1;
+  animation: animateBorder 8s linear infinite;
+  border: 4px solid rgb(255, 255, 255);
+}
+
+@keyframes animateBorder {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
+}
+
+.span {
+  color: black;
+  letter-spacing: 3px;
+  font-size: 18px;
+}
+
+.button:active {
+  box-shadow: 5px 5px 12px #cfcece, -4px -4px 12px #fcfcfc;
+}
+
+  
