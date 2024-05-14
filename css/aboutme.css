@@ -97,13 +97,13 @@
     margin-left: 20%;
     margin-right: 20%;
 }
-.meter {
+.length {
     background: #f3efef;
     border-radius: 25px;
     height: 20px;
     position: relative;
 }
-.meter>span {
+.length>span {
     background-color: #aaa5ff;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 6px;
