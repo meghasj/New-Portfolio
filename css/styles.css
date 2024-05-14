@@ -26,10 +26,7 @@ body a{
     font-size: 100%;
     color: black;
     font-weight: 400;
-    padding: 1rem;
-}
-.icon{
-    padding: .4rem;
+    padding: 10px;
 }
 #phone {
         margin-top: 7%;
@@ -37,30 +34,29 @@ body a{
         background: #000;
         width: 20%;
         height: 450px;
-        border-radius: 2em;
+        border-radius: 20px;
         display: flex;
         flex-direction: column;
         padding: 10px;
-        box-shadow: 0 .5em .5em .5em rgba(0, 0, 0, .2);
+        box-shadow: 0 2px 2px 4px rgba(0, 0, 0, .2);
     }
    #phone .phone-inner {
-        flex-grow: 10;
         background-color: #eaeaff;
-        border-radius: 1em;
+        border-radius: 20px;
         padding: 10%;
         position: relative;
     }
     #phone .phone-inner:before {
         content: "";
         position: absolute;
-        border-radius: 1em;
+        border-radius: 20px;
         background-color: #000;
     }
     #phone .phone-inner:before {
         width: 20%;
         height: 3%;
-        top: -.5em;
-        left: 6.5em;
+        top: -10px;
+        left: 42%;
     }
     #phone .phone-inner .phone-content {
         display: flex;
@@ -86,7 +82,7 @@ body a{
     #phone .phone-inner:after {
         content: "";
         position: absolute;
-        border-radius: 1em;
+        border-radius: 20px;
         background-color: #000;
     }
     #phone .phone-inner:after {
@@ -125,9 +121,6 @@ body a{
         display: flex;
         align-items: center;
         flex-direction: column;
-        color: var(--main-color);
-        transform: rotate(calc(360deg / 4 * var(--i)));
-        transform-origin: 384px;
         background: white;
     }
 
@@ -147,7 +140,7 @@ body a{
 
     .footer p {
         text-align: center;
-        margin-top: 2rem;
+        margin-top: 2px;
     }
    
 

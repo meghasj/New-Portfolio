@@ -11,10 +11,10 @@
 }
 .about-me {
     clip-path: polygon(
-      0 0, /* left top */
-      100% 0, /* right top */ 
-      100% 100%, /* right bottom */
-      0 80% /* left bottom */
+      0 0, 
+      100% 0, 
+      100% 100%, 
+      0 80% 
     );
     background-color: rgb(168, 168, 170);
     margin-top: -10%;
@@ -47,7 +47,7 @@
  
 }
 .footer{
-    background-color: rgb(165, 165, 194);
+    background-color:transparent;
     padding-bottom: 50px;
     margin-bottom: -10px;
     margin-left: -10px;
@@ -97,13 +97,13 @@
     margin-left: 20%;
     margin-right: 20%;
 }
-.meter {
+.length {
     background: #f3efef;
     border-radius: 25px;
     height: 20px;
     position: relative;
 }
-.meter>span {
+.length>span {
     background-color: #aaa5ff;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 6px;
@@ -113,16 +113,4 @@
     height: 100%;
     overflow: hidden;
     position: relative;
-}
-.footer-iconTop{
-    background-color: white;
-    background-color: #aaa5ff; /* Change the background color as needed */
-    border-radius: 50%;
-    text-align: center;
-    line-height: 40px;
-    color: #fff; /* Change the text color as needed */
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-    margin: 10px;
-    float: right;
 }

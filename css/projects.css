@@ -3,13 +3,11 @@ body{
 background-image: linear-gradient(315deg, #44355b 0%, #ececec 74%);
 }
 .project {
-    /* min-height: auto; */
-    padding-bottom: 5rem;
     margin-top: 10%;
 }
 
 .project h2 {
-    margin-bottom: 4rem;
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -17,14 +15,13 @@ background-image: linear-gradient(315deg, #44355b 0%, #ececec 74%);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    gap: 2.5rem;
+    gap: 3%;
 }
 
  .project-box {
     position: relative;
     display: flex;
-    border-radius: 2rem;
-    box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
+    border-radius: 20px;
     overflow: hidden;
 }
 
@@ -40,17 +37,17 @@ background-image: linear-gradient(315deg, #44355b 0%, #ececec 74%);
  .project-layer {
     position: absolute;
     bottom: 0px;
-    left: -60px;
+    left: -10px;
     width: 100%;
     height: 100%;
     background: linear-gradient(rgba(0, 0, 0, .1),rgb(69, 66, 73));
-    color: var(--white-color);
+    color: rgb(185, 182, 182);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    padding: 0 4rem;
+    padding: 0 5px;
     opacity: 0;
     transition: .5s ease;
 }
@@ -66,7 +63,6 @@ background-image: linear-gradient(315deg, #44355b 0%, #ececec 74%);
 
 .project-layer p {
     font-size: 1.5rem;
-    /* margin: .3rem 0 1rem; */
     margin: 2px;
     color: white;
 }
@@ -75,27 +71,25 @@ background-image: linear-gradient(315deg, #44355b 0%, #ececec 74%);
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 5rem;
-    height: 5rem;
-    background: var(--white-color);
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
 }
 
 .project-layer a i {
-    font-size: 2rem;
+    font-size: 20px;
     color: #333;
 }
 .upcoming-projects{
-    padding-bottom: 10rem;
+    padding-bottom: 10px;
 }
 
 .upcoming {
-    margin-bottom: 4rem;
+    margin-bottom: 10px;
     text-align: center;
 }
 .footer-iconTop{
     background-color: white;
-    /* display: inline-block; */
     margin: 10px;
     float: right;
 }
